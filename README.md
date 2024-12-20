@@ -1,0 +1,3 @@
+# Off-by-one error in TypeScript array iteration
+
+This repository demonstrates a common off-by-one error in TypeScript when iterating over arrays. The error occurs because the loop condition `i <= arr.length` attempts to access an element beyond the valid index range of the array, resulting in an error or unexpected behavior.  The solution demonstrates the correct way to iterate using `i < arr.length`.
